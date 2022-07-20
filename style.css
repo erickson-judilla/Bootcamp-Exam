@@ -1,0 +1,700 @@
+@media only screen and (min-width: 1024px) {
+  @font-face {
+    font-family: "MarketSans-Light";
+    src: url("/font/MarketSans-Light.woff2") format("woff2"),
+      url("/font/MarketSans-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Bold";
+    src: url("font/MarketSans-Bold.woff2") format("woff2"),
+      url("font/MarketSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-SemiBold";
+    src: url("font/MarketSans-SemiBold.woff2") format("woff2"),
+      url("font/MarketSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Thin";
+    src: url("font/MarketSans-Thin.woff2") format("woff2"),
+      url("font/MarketSans-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Medium";
+    src: url("font/MarketSans-Medium.woff2") format("woff2"),
+      url("font/MarketSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Regular";
+    src: url("font/MarketSans-Regular.woff2") format("woff2"),
+      url("font/MarketSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "MarketSans-Regular";
+  }
+
+  .wrapper {
+    width: 970px;
+    margin: auto;
+  }
+
+  /* login */
+
+  .login {
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+  }
+
+  .login li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+    font-size: 12px;
+  }
+
+  .login p {
+    display: inline-block;
+  }
+
+  .login li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .login li .user-login,
+  .login li .user-login-dis {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .login li img {
+    vertical-align: middle;
+    width: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  #sell {
+    margin-left: 230px;
+  }
+
+  /* search space */
+
+  .search-space {
+    border-bottom: 1px solid gray;
+  }
+
+  .search-space li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 0px;
+  }
+
+  #logo img {
+    width: 120px;
+    margin-right: 180px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  #search-field img {
+    width: 15px;
+  }
+
+  #search-field {
+    border: 2px solid black;
+    padding: 0px 10px;
+  }
+
+  #search {
+    border-color: transparent;
+    width: 250px;
+    font-size: 15px;
+    margin: 5px 0px;
+  }
+
+  #categories {
+    border-color: transparent;
+    border-left: 1px solid gray;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #search-btn {
+    background-color: #3665f3;
+    color: white;
+    border-color: transparent;
+    padding: 7px;
+    width: 130px;
+    font-size: 13px;
+  }
+
+  #btn-search {
+    display: none;
+  }
+
+  .search-space li p {
+    color: gray;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+  /* categories */
+
+  .categories li {
+    display: inline-block;
+    margin: 10px 12px;
+    font-size: 12px;
+  }
+
+  .categories li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #home a {
+    border-bottom: 3px solid gray;
+    padding-bottom: 6px;
+  }
+
+  /* header */
+
+  .header {
+    background-color: #70e2e3;
+    height: 330px;
+    padding: 0px 30px;
+  }
+
+  .header h1 {
+    display: inline-block;
+    width: 280px;
+    font-size: 35px;
+  }
+
+  #buy-now-btn {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    right: 280px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+  }
+
+  .header a img {
+    vertical-align: middle;
+    width: 15px;
+  }
+
+  .featured-products li {
+    display: inline-block;
+  }
+
+  .featured-products li a img {
+    width: 200px;
+    position: relative;
+    bottom: 110px;
+    left: 330px;
+  }
+
+  /* categories */
+
+  .categories-field {
+    padding: 40px 0px;
+  }
+
+  .categories-field h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 20px;
+  }
+
+  .categories-field a {
+    border-left: 1px solid rgb(218, 218, 218);
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding-left: 20px;
+  }
+
+  .categories-field a img {
+    width: 15px;
+    vertical-align: middle;
+  }
+
+  .categories-field ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 5px;
+  }
+
+  .sub-categories a {
+    border-left: transparent;
+  }
+
+  .sub-categories p {
+    width: 100px;
+    margin: 0px 10px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 12px;
+  }
+
+  .sub-categories a img {
+    width: 100px;
+  }
+
+  /* deals */
+
+  .best-deals {
+    padding: 40px 0px;
+  }
+
+  .best-deals h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 20px;
+  }
+
+  .best-deals a {
+    border-left: 1px solid rgb(218, 218, 218);
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding-left: 20px;
+  }
+
+  .best-deals a img {
+    width: 15px;
+    vertical-align: middle;
+  }
+
+  .sub-deals li {
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 0px;
+  }
+
+  .sub-deals a {
+    border-left: transparent;
+  }
+
+  .sub-deals li a img {
+    vertical-align: top;
+    width: 130px;
+  }
+  #iphones {
+    padding-top: 15px;
+    padding-bottom: 22px;
+  }
+  .sub-deals li a h2 {
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .sub-deals h3,
+  .sub-deals p {
+    font-size: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+  }
+
+  .sub-deals h3 {
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: gray;
+  }
+  .sub-deals p {
+    color: gray;
+  }
+  /* footer */
+
+  .footer {
+    border-top: 1px solid gray;
+    padding: 50px;
+  }
+
+  .footer p {
+    font-size: 13px;
+    margin: 0px 260px;
+    color: rgb(66, 65, 65);
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 481px) {
+  @font-face {
+    font-family: "MarketSans-Light";
+    src: url("/font/MarketSans-Light.woff2") format("woff2"),
+      url("/font/MarketSans-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Bold";
+    src: url("font/MarketSans-Bold.woff2") format("woff2"),
+      url("font/MarketSans-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-SemiBold";
+    src: url("font/MarketSans-SemiBold.woff2") format("woff2"),
+      url("font/MarketSans-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Thin";
+    src: url("font/MarketSans-Thin.woff2") format("woff2"),
+      url("font/MarketSans-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Medium";
+    src: url("font/MarketSans-Medium.woff2") format("woff2"),
+      url("font/MarketSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "MarketSans-Regular";
+    src: url("font/MarketSans-Regular.woff2") format("woff2"),
+      url("font/MarketSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  .wrapper {
+    width: 1023px;
+    font-family: "MarketSans-Regular";
+  }
+
+  /* login */
+
+  .login {
+    border-bottom: 1px solid gray;
+    padding-bottom: 3px;
+  }
+
+  .login li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+    font-size: 12px;
+  }
+  .dis a,
+  .user-login-dis,
+  .login p {
+    display: none;
+  }
+  .login li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .login li .user-login,
+  .login li .user-login-dis {
+    text-decoration: underline;
+    color: blue;
+  }
+
+  .login li img {
+    vertical-align: middle;
+    width: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  #sell {
+    margin-left: 590px;
+  }
+
+  /* search space */
+
+  .search-space {
+    border-bottom: 1px solid gray;
+  }
+
+  .search-space li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 0px;
+  }
+
+  #logo img {
+    width: 120px;
+    margin-right: 180px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  #search-field img {
+    width: 15px;
+  }
+
+  #search-field {
+    border: 2px solid black;
+    padding: 0px 10px;
+  }
+
+  #search {
+    border-color: transparent;
+    width: 250px;
+    font-size: 15px;
+    margin: 5px 0px;
+  }
+
+  #categories {
+    border-color: transparent;
+    border-left: 1px solid gray;
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  #search-btn {
+    background-color: #3665f3;
+    color: white;
+    border-color: transparent;
+    padding: 7px;
+    width: 130px;
+    font-size: 13px;
+    display: none;
+  }
+  #btn-search {
+    background-color: #3665f3;
+    color: white;
+    border-color: transparent;
+    padding: 7px;
+    width: 20px;
+    font-size: 13px;
+  }
+
+  .search-space li p {
+    color: gray;
+    font-size: 10px;
+    padding-left: 5px;
+  }
+
+  /* categories */
+
+  .categories li {
+    display: inline-block;
+    margin: 10px 12px;
+    font-size: 12px;
+  }
+
+  .categories li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #home a {
+    border-bottom: 3px solid gray;
+    padding-bottom: 6px;
+  }
+
+  /* header */
+
+  .header {
+    background-color: #70e2e3;
+    height: 330px;
+    padding: 0px 30px;
+  }
+
+  .header h1 {
+    display: inline-block;
+    width: 280px;
+    font-size: 35px;
+  }
+
+  #buy-now-btn {
+    display: inline-block;
+    position: relative;
+    top: 60px;
+    right: 280px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+  }
+
+  .header a img {
+    vertical-align: middle;
+    width: 15px;
+  }
+
+  .featured-products li {
+    display: inline-block;
+  }
+
+  .featured-products li a img {
+    width: 200px;
+    position: relative;
+    bottom: 110px;
+    left: 330px;
+  }
+
+  /* categories */
+
+  .categories-field {
+    padding: 40px 0px;
+  }
+
+  .categories-field h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 20px;
+  }
+
+  .categories-field a {
+    border-left: 1px solid rgb(218, 218, 218);
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding-left: 20px;
+  }
+
+  .categories-field a img {
+    width: 15px;
+    vertical-align: middle;
+  }
+
+  .categories-field ul li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 5px;
+  }
+
+  .sub-categories a {
+    border-left: transparent;
+  }
+
+  .sub-categories p {
+    width: 100px;
+    margin: 0px 10px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 12px;
+  }
+
+  .sub-categories a img {
+    width: 100px;
+  }
+
+  /* deals */
+
+  .best-deals {
+    padding: 40px 0px;
+  }
+
+  .best-deals h2 {
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 20px;
+  }
+
+  .best-deals a {
+    border-left: 1px solid rgb(218, 218, 218);
+    text-decoration: none;
+    color: rgb(46, 46, 46);
+    padding-left: 20px;
+  }
+
+  .best-deals a img {
+    width: 15px;
+    vertical-align: middle;
+  }
+
+  .sub-deals li {
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 0px;
+  }
+
+  .sub-deals a {
+    border-left: transparent;
+  }
+
+  .sub-deals li a img {
+    vertical-align: top;
+    width: 130px;
+  }
+  #iphones {
+    padding-top: 15px;
+    padding-bottom: 22px;
+  }
+  .sub-deals li a h2 {
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .sub-deals h3,
+  .sub-deals p {
+    font-size: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+  }
+
+  .sub-deals h3 {
+    text-decoration: line-through;
+    margin-left: 20px;
+    color: gray;
+  }
+  .sub-deals p {
+    color: gray;
+  }
+  /* footer */
+
+  .footer {
+    border-top: 1px solid gray;
+    padding: 50px;
+  }
+
+  .footer p {
+    font-size: 13px;
+    margin: 0px 260px;
+    color: rgb(66, 65, 65);
+  }
+}
